@@ -1,0 +1,9 @@
+#Entrar nombre completo con apellidos
+
+text = input('Enter a string: ')
+#Primer espacio
+space1 = text.find(' ')
+#Segundo espacio
+space2 = text.find(' ',space1+1)
+newtext = text[0] +'. '  + text[space1+1] +'. ' + text[space2+1] +'.'
+print('New string:', newtext)

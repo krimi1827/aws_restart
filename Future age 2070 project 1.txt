@@ -1,0 +1,11 @@
+#Code to know future age in 2070
+
+
+thisYear = int(input("In what year we are in?"))
+print("We are in " + str(thisYear))
+age = int(input("How old are you?"))
+print("You are " + str(age) + " years old.")
+ 
+yearsDifference = 2070 - thisYear
+age = age + yearsDifference
+print("In 2070 you will be " + str(age) + " years old.")
